@@ -34,6 +34,16 @@ app.use(
 
       return callback(new Error("Not allowed by CORS"));
     },
+
+    origin: [
+      "http://localhost:5173",
+      "http://localhost:5174",
+      "http://localhost:3000",
+      "http://127.0.0.1:5173",
+      "http://127.0.0.1:5174",
+      "https://ai-assistant-frontendd-ur0m.onrender.com",
+    ],
+
     credentials: true,
   }),
 );
