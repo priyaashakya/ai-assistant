@@ -1,6 +1,6 @@
 import uploadOnCloudinary from "../config/cloudinary.js";
 import User from "../models/user.model.js";
-import aiResponse from "../groq.js";
+import groq from "../Groq.js";
 import moment from "moment";
 import axios from "axios";
 
